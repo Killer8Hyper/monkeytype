@@ -79,6 +79,14 @@ declare namespace MonkeyTypes {
       topResultsToAnnounce: number;
       xpRewardBrackets: RewardBracket[];
     };
+    seasons: {
+      weekly: {
+        enabled: boolean;
+        maxXpReward: number;
+        minXpReward: number;
+        expirationTimeInDays: number;
+      };
+    };
   }
 
   interface RewardBracket {
